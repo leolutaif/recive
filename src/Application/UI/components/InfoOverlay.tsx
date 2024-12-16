@@ -37,7 +37,7 @@ const InfoOverlay: React.FC<InfoOverlayProps> = ({ visible }) => {
             .catch((error) => console.error('Error fetching data:', error));
     }, []);
 
-    const NAME_TEXT = 'GOALS';
+    const NAME_TEXT = 'ROOM';
     const TITLE_TEXT = tokenCA;
     const MULTIPLIER = 1;
 

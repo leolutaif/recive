@@ -149,16 +149,16 @@ const LoadingScreen: React.FC<LoadingProps> = () => {
                         <div style={styles.logoContainer}>
                             <div>
                                 <p style={styles.green}>
-                                    <b>GOALS,</b>{' '}
+                                    <b>ROOM,</b>{' '}
                                 </p>
                                 <p style={styles.green}>
-                                    <b>Goals Inc.</b>
+                                    <b>ROOM Inc.</b>
                                 </p>
                             </div>
                         </div>
                         <div style={styles.headerInfo}>
                             <p>Released: 01/13/2000</p>
-                            <p>HHBIOS (C)2000 GOALS Inc.,</p>
+                            <p>HHBIOS (C)2000 ROOM Inc.,</p>
                         </div>
                     </div>
                     <div style={styles.body} className="loading-screen-body">
@@ -195,7 +195,7 @@ const LoadingScreen: React.FC<LoadingProps> = () => {
                             <p>
                                 All Content Loaded, launching{' '}
                                 <b style={styles.green}>
-                                    'Goals website loading'
+                                    'ROOM website loading'
                                 </b>{' '}
                                 V1.0
                             </p>
@@ -227,7 +227,7 @@ const LoadingScreen: React.FC<LoadingProps> = () => {
                     <p>But do enjoy what I have done so far :)</p>
                     <div style={styles.spacer} />
                     <div style={styles.spacer} /> */}
-                    <p>GOALS!!</p>
+                    <p>ROOM!!</p>
                     {mobileWarning && (
                         <>
                             <br />
